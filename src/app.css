@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ActionBar {
+  background-color: #ff4136;
+  color: white;
+}
+
+.btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+
+.btn-red {
+  @apply bg-red-500 text-white;
+}
+
+.btn-red:active {
+  @apply bg-red-700;
+}
